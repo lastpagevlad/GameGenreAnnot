@@ -6,7 +6,7 @@ import javax.annotation.PreDestroy;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component("slasherBean")
+
 public class Slasher implements Genre{
 
     @PreDestroy

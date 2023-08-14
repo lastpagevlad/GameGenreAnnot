@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component
+
 public class GamePlay {
 
-    @Autowired
+
     @Qualifier("rolePlay")
     private Genre genre;
     private Genre genre1;
